@@ -1,0 +1,78 @@
+/*Tipography*/
+/*Cores*/
+@import 'https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css';
+@import 'https://cdn.jsdelivr.net/npm/chart.js@2.9.4/dist/Chart.min.js';
+@import 'https://fonts.googleapis.com/css2?family=Poppins:500,600,300,400';
+@import 'https://fonts.googleapis.com/css2?family=Roboto&display=swap';
+body { font-family: Poppins; }
+
+body, main { background-color: #EBE5DB; }
+
+h1, h2 { font-family: Poppins; font-weight: 600; }
+
+h1 { font-size: 20px; }
+
+h2 { font-size: 18px; }
+
+.subtitle { font-family: Poppins; font-weight: 400; font-size: 12px; }
+
+.user { font-family: Poppins; font-weight: 500; font-size: 16px; }
+
+.company { font-family: Poppins; font-weight: lighter; font-size: 16px; }
+
+.caption-main-logo { font-family: Poppins; font-weight: 300; font-size: 20px; color: #51526C; }
+
+.caption-logo-dash { font-size: 12px; }
+
+.box-logo-dash { align-items: center; }
+
+/*Buttons*/
+button { font-family: Poppins; font-size: 16px; border-radius: 12px; padding: 4px 20px; }
+
+button { background-color: #232323; color: #FFF; }
+
+.button-disabled { background-color: #D3D3D3; color: #FFF; }
+
+/*Forms*/
+label, input { font-family: Roboto; font-weight: 400; }
+
+label { font-size: 14px; color: #000; }
+
+input { padding: 0.25em; font-size: 12px; color: #ADB5BD; border: 1px solid #D9D9D9; border-radius: 7px; }
+
+.form-login { flex-grow: 1; padding: 30px; align-items: center; text-align: left; background-color: #FFF; border-radius: 7px; }
+
+.form-login div { margin-bottom: 7px; }
+
+.msg-erro { background-color: #FFF; border: 1px solid #DD4C1E; }
+
+/*Flexbox*/
+.flexbox-container { display: flex; flex-direction: row; align-items: center; align-content: center; flex-wrap: nowrap; margin: 0 auto; }
+
+.wrap { flex-wrap: wrap; }
+
+.wrap-reverse { flex-wrap: wrap-reverse; }
+
+/* Flex Item */
+.item-container { margin: 1em; align-content: baseline; justify-self: center; }
+
+/*Login*/
+.section-main-logo { flex-grow: 2; text-align: center; }
+
+.background-login { background: url(./images/img-back.svg); }
+
+/*Cad Cupom*/
+.bd-placeholder-img { font-size: 1.125rem; text-anchor: middle; -webkit-user-select: none; -moz-user-select: none; user-select: none; }
+
+@media (min-width: 768px) { .bd-placeholder-img-lg { font-size: 3.5rem; } }
+.b-example-divider { height: 3rem; background-color: rgba(0, 0, 0, 0.1); border: solid rgba(0, 0, 0, 0.15); border-width: 1px 0; box-shadow: inset 0 0.5em 1.5em rgba(0, 0, 0, 0.1), inset 0 0.125em 0.5em rgba(0, 0, 0, 0.15); }
+
+.b-example-vr { flex-shrink: 0; width: 1.5rem; height: 100vh; }
+
+.bi { vertical-align: -.125em; fill: currentColor; }
+
+.nav-scroller { position: relative; z-index: 2; height: 2.75rem; overflow-y: hidden; }
+
+.nav-scroller .nav { display: flex; flex-wrap: nowrap; padding-bottom: 1rem; margin-top: -1px; overflow-x: auto; text-align: center; white-space: nowrap; -webkit-overflow-scrolling: touch; }
+
+/*# sourceMappingURL=styles.css.map */

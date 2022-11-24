@@ -1,0 +1,67 @@
+﻿/*Tipography*/
+$font-main-project:Poppins;
+$font-secondary-project:Roboto;
+
+/*Cores*/
+$grey-light92:#EBE5DB;
+$grey-light96:#F5F5F5;
+$grey-light85:#D9D9D9;
+
+$blue-light55:#558C8C;
+$blue-light42:#51526C;
+
+$black-light12:#1E1E1E;
+
+$red-light87:#DD4C1E;
+
+body {
+    font-family: $font-main-project;
+}
+
+body, main {
+    background-color: $grey-light92;
+}
+
+%properties-font-Hnumber{
+    font-family: $font-main-project;
+    font-weight: 600;
+}
+
+h1 {
+    @extend %properties-font-Hnumber;
+    font-size: 20px;
+}
+
+h2 {
+    @extend %properties-font-Hnumber;
+    font-size: 18px;
+}
+.subtitle {
+    font-family: $font-main-project;
+    font-weight: 400;
+    font-size: 12px;
+}
+.user {
+    font-family: $font-main-project;
+    font-weight: 500;
+    font-size: 16px;
+}
+.company {
+    font-family: $font-main-project;
+    font-weight: lighter;
+    font-size: 16px;
+}
+
+.caption-main-logo {
+    font-family: $font-main-project;
+    font-weight: 300;
+    font-size: 20px;
+    color: #51526C;
+}
+.caption-logo-dash{
+    font-size:12px;
+}
+
+.box-logo-dash{
+    align-items:center;
+}

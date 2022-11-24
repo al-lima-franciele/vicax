@@ -1,0 +1,26 @@
+/*Flexbox*/
+
+.flexbox-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content:center;
+    flex-wrap: nowrap;
+
+    margin:0 auto;
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
+
+.wrap-reverse {
+    flex-wrap: wrap-reverse;
+}
+
+/* Flex Item */
+.item-container {
+    margin: 1em;
+    align-content:baseline;
+    justify-self:center;
+}

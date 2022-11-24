@@ -1,0 +1,47 @@
+﻿/*Forms*/
+$font-secondary-project: Roboto;
+
+$border-color-input-main: $grey-light85;
+$border-color-input-error: #DD4C1E;
+$border-color-input-selected: #558C8C;
+$color-msg-error: #DD4C1E;
+
+
+
+%properties-font-forms {
+    font-family: $font-secondary-project;
+    font-weight: 400;
+}
+label {
+    @extend %properties-font-forms;
+    font-size: 14px;
+    color: #000;
+}
+
+input {
+    @extend %properties-font-forms;
+    padding: 0.25em;
+    font-size: 12px;
+    color: #ADB5BD;
+    border: 1px solid $grey-light85;
+    border-radius: 7px;
+}
+.form-login{
+    flex-grow:1;
+    padding:30px;
+    align-items:center;
+    text-align:left;
+    background-color:#FFF;
+    border-radius:7px;
+}
+.form-login div{
+    margin-bottom:7px;
+}
+
+
+.msg-erro {
+    background-color: #FFF;
+    border: 1px solid $red-light87;
+}
+
+
